@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "react-app",
+    "stage-0",
+    "react-native-stage-0/decorator-support"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    ["import",
+      {
+        "libraryName": "antd-mobile",
+        "style": "css"
+      }
+    ]
+  ]
+}
